@@ -44,6 +44,5 @@ app.use(indexRoutes);
 app.set("view engine", "ejs");
 
 
-app.listen(3000, function() {
-   console.log("Server started..."); 
-});
+var port = process.env.PORT || 3000;
+app.listen(port);
