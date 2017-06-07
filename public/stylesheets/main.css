@@ -1,0 +1,42 @@
+#form-size {
+    width: 30%;
+    margin: 25px auto;
+}
+
+#page-size {
+    margin-top: 15%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.thumbnail a>img, .thumbnail>img {
+    width: 100%;
+}
+
+.thumbnail #index {
+    width: 100%;
+    height: 250px;
+}
+
+.thumbnail {
+    padding: 0;
+    border: 0 solid rgba(0, 0, 0, 0);
+}
+
+.caption {
+    padding: 9px;
+}
+
+#form-delete {
+    display: inline;
+}
+
+.form {
+    padding-top: 20vh;
+}
